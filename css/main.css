@@ -31,10 +31,12 @@ p {
   margin-bottom: 0; }
 
 a:hover, a:focus {
-  color: #000; }
+  color: #3ecf8e; }
 
 a {
-  color: #000;
+  color: #5e629c;
+    font-size: 18px;
+
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -98,6 +100,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #5e629c;
   line-height: 26px;
   margin-bottom: 0; }
+
+.desc-text p {
+  font-size: 18px;
+  color: #5e629c;
+  line-height: 26px;
+  margin-bottom: 0; }
+
+.team-photo {
+    margin-bottom: 10px;
+
+}
 
 /* ==========================================================================
    Buttons
@@ -349,7 +362,7 @@ button:focus {
   text-align: center;
   border-radius: 4px;
   background: #5533ff;
-  background: linear-gradient(95deg, #0d273f 40%, #25ddf5 100%);
+  background: linear-gradient(95deg, #0d273f 40%, #3ED067 100%);
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   z-index: 9999999; }
 
@@ -1395,8 +1408,10 @@ button:focus {
    Footer section
    ========================================================================== */
 #footer-Content {
-  padding-top: 130px;
-  background: #0d273f; }
+  padding-top: 30px;
+  background: #0d273f;}
+  #footer-Content p{
+  color: #3ecf8e; }
   #footer-Content .footer-logo img {
     padding-top: 70px; }
   #footer-Content .form-control:focus {
@@ -1404,7 +1419,7 @@ button:focus {
     box-shadow: none;
     background: #e5fff3; }
   #footer-Content .copyright {
-    margin-top: 125px;
+    margin-top: 30px;
     border-top: 1px solid #3ED067;
     padding-top: 30px;
     padding-bottom: 30px; }
