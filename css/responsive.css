@@ -29,6 +29,11 @@
     padding-top: 100px; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .hero-area .overlay{
+        -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+    -webkit-transform-origin: 0;
+    height: 120%} 
   .hero-area .contents h2 {
     font-size: 38px; }
   .navbar-expand-md .navbar-nav .nav-link {
